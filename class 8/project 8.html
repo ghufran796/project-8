@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project 8 </title>
+    <style>
+       body{
+            background-color: aqua  ;
+            background-image: url(download.jpeg) ;
+          }
+       #P1{
+            height: 60px;
+            width: 800px;
+            background: linear-gradient( to right, rgb(72, 189, 243),rgb(237, 232, 232));
+            background-position: bottom ;
+          }
+ 
+        #P2{
+             height: 400px;
+             width: 400px ;
+             background:radial-gradient(#e66465, #9198e5) ;
+           }
+        div{
+             width: 200px;
+             height: 200px;
+             animation-name: P31;
+             animation-duration: 5s;
+             animation-iteration-count: infinite;
+           }
+          @keyframes P31 {
+                           0% {background-color:rgb(237, 1, 1) ;}
+                           20% {background-color: rgb(58, 223, 25);}
+                           40% {background-color: rgb(28, 186, 234);}
+                           60% {background-color: rgb(228, 236, 6);}
+                           80% {background-color: rgb(241, 8, 237);}
+                           100% {background-color: rgb(215, 162, 4);}
+                         }  
+        
+    </style>
+</head>
+<body>
+    <!--I learned we cant use the backround image tag useing ids -->
+    <p style="font-weight: bolder; font-size: larger; color: red; background-color: white; "  > 
+        Backround images can be used in many times.
+        For example making a backround for a website a 
+        example of this is as following
+    </p><br><br><br>
+    
+   <!--I learned if you use id tag it allows you to set linear gradiant as a backround-->
+    
+    <p id="P1" style="font-weight: bolder;"  >
+        Backround radiant have two types no1 <br>is the one it is in order the
+         linear graidiant tag is used for lines in order for example the 
+         following
+    </p>
+    <p id="P2"  style="font-weight: bolder; " >
+        The second type of linear is the radial-gradient which allows 
+        you to make circle and ovel shapes for exaple the following
+    </p>
+    <div style="font-weight: bolder;" >
+        keyframes are more like swiching colores at a
+         fast rate like an animation but mostly with colores 
+         for example 
+    </div>
+</body>
+</html>
